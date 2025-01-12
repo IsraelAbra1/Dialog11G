@@ -16,6 +16,8 @@ public class CustomDialog extends Dialog implements View.OnClickListener
         super(context);
         setContentView(R.layout.custom_dialog);
 
+
+
         this.context = context;
 
         this.btnYes = findViewById(R.id.btnYes);
